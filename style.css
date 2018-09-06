@@ -1,0 +1,67 @@
+body {
+  margin: auto;
+  width: 960px;
+  font-family: 'Open Sans',sans-serif;
+}
+nav li {
+  display: inline;
+  float: left;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0px;
+  margin-top: 40px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.ranks li {
+  display: inline;
+}
+.ranks a:link, .ranks a:visited {
+  padding: 10px;
+  color: grey;
+}
+.ranks a:hover {
+  color: green;
+}
+nav a:link, nav a:visited {
+  background-color: green;
+  color: white;
+  width: 150px;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+header h1 {
+  font-size: 50px;
+  color: white;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+header {
+  background-image: url("image/cricket.jpeg");
+  height: 100px;
+  margin-bottom: 90px;
+  width: 600px
+}
+td {
+  text-align: center;
+  padding: 5px;
+  width: 20%;
+}
+section td {
+  width: 10%;
+}
+aside {
+  float: right;
+  background-color: grey;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+p {
+  text-indent: 20px;
+}
