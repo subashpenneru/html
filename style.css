@@ -4,6 +4,11 @@ body {
   width: 960px;
   font-family: 'Open Sans',sans-serif;
 }
+li {
+  display: inline;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 nav li {
   display: inline;
   float: left;
@@ -83,4 +88,20 @@ header {
 .photo {
   float: left;
   margin-right: 20px;
+}
+footer {
+  margin-top: 40px;
+}
+footer h3 {
+  color: grey;
+}
+footer ul {
+  margin-left: 150px;
+  margin-top: -40px;
+}
+footer a {
+  color: grey;
+}
+footer a:hover {
+  color: black;
 }
