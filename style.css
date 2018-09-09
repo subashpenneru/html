@@ -59,15 +59,17 @@ header {
   margin-bottom: 90px;
   width: 600px
 }*/
-td {
+ .tdTable td {
   text-align: center;
   padding: 5px;
   width: 20%;
-}
-section td {
+} 
+.tdSection td {
+  text-align: center;
+  padding: 5px;
   width: 10%;
 }
-aside {
+.asideRight {
   float: right;
   background-color: grey;
   margin-left: 20px;
@@ -85,18 +87,15 @@ header .photo-left {
 header {
   height: 100px;
 }
-.photo {
-  float: left;
-  margin-right: 20px;
-}
 footer {
   margin-top: 40px;
 }
 footer h3 {
   color: grey;
+  margin-left: 120px;
 }
 footer ul {
-  margin-left: 150px;
+  margin-left: 200px;
   margin-top: -40px;
 }
 footer a {
